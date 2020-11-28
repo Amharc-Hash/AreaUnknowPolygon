@@ -40,6 +40,7 @@ Calculate calSum()
 	int sides = 0;
 	printf("Enter the number of sides of the polygon : ");
 	scanf_s("%d", &sides);
+
 	if (sides>2)
 	{
 		printf("\nEnter Coordinates of the polygon point\nFollow this example\n");

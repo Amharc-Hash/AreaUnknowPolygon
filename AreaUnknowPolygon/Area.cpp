@@ -41,7 +41,7 @@ Calculate calSum()
 	printf("Enter the number of sides of the polygon : ");
 	scanf_s("%d", &sides);
 
-	if (sides>2)
+	if (sides>2 && sides<999)
 	{
 		p.checkPoint = 0;
 		printf("\nEnter Coordinates of the polygon point\nFollow this example\n");

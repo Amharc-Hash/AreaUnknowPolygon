@@ -43,6 +43,7 @@ Calculate calSum()
 
 	if (sides>2)
 	{
+		p.checkPoint = 0;
 		printf("\nEnter Coordinates of the polygon point\nFollow this example\n");
 		printf("1 1\n2 2\n3 3\n4 4\n");
 		printf("\nEnter your Coordinates\n");
@@ -75,7 +76,7 @@ Calculate calSum()
 	}
 	else if (sides == 1)
 	{
-		p.checkPoint == 1;
+		p.checkPoint = 1;
 		return p;
 
 	}
